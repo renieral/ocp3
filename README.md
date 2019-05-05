@@ -1,4 +1,4 @@
-# Projetp P3 OpenClassrooms - Alban RENIER
+# Projet P3 OpenClassrooms - Alban RENIER
 
 
 *Projet PHP, Mysql et JavaScript*

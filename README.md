@@ -2,7 +2,8 @@
 
 
 *Projet PHP, Mysql et JavaScript*
+----------------------
 
-#Création d'un blog pour écrivain
+> L'objectif de ce projet est de réaliser un blog pour un écrivain en partant de zéro en utilisant une archiecture MVC orienté objet. 
 
 

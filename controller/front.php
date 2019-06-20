@@ -1,36 +1,26 @@
 <?php
 
-
-/**
- *
- */
-class Front
-{
-
-	function __construct(argument)
-	{
-		# code...
+class Front {
+	public function __construct ($uri){
+		$this->uri=$uri;
+		switch ($uri[0]){
+			case "contact" : 
+				break;
+			case "biographie" :
+				break;
+			case "article":
+				break;
+			default : 
+				$this->_listArticle();
+				break;
 	}
 
-	private function accueil(){
-
+	private _listArticle(){
+		$article=new Article([
+			"list"=>[
+				"quantite"=>5,
+				"debut"=>0
+			]
+		]);
 	}
-	private function bio(){
-
-	}
-	private function contact(){
-
-	}
-	private function article(){
-
-		$chapitre = new Article("un-super-ete");
-		$commentaire = new Comment($chapitre->id);
-
-		// echo $chapitre->html;
-		// echo $commentaire->html;
-	}
-	private function sommaire(){
-
-	}
-
 }
